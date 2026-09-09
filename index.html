@@ -1,178 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Classroom Management Toolkit</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .tooltip { position: relative; display: inline-block; border-bottom: 1px dashed #4f46e5; cursor: help; }
-    .tooltip .tooltiptext { visibility: hidden; width: 200px; background-color: #1e293b; color: #fff; text-align: center; border-radius: 6px; padding: 6px; position: absolute; z-index: 10; bottom: 125%; left: 50%; margin-left: -100px; opacity: 0; transition: opacity 0.2s; font-size: 0.75rem; font-weight: normal; }
-    .tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
-  </style>
-</head>
-<body class="bg-slate-100 font-sans p-4 sm:p-8 text-slate-800">
+# Classroom Management & Professional Development Workshop Framework
 
-  <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
-    
-    <!-- Header -->
-    <header class="bg-indigo-600 p-6 text-white">
-      <div class="flex justify-between items-center">
-        <h1 class="text-2xl font-bold">🎓 Classroom Management Toolkit</h1>
-        <span class="bg-indigo-700 text-indigo-100 text-xs px-3 py-1 rounded-full font-medium">Complete 5-Module Program</span>
-      </div>
-      <p class="text-indigo-100 mt-2 text-sm">Practical, everyday strategies for supportive & effective teaching.</p>
-    </header>
+A comprehensive, evidence-based training curriculum and case-study toolkit designed for K-12 educators and instructional coaches. Adapted from Alberta Education's *Supporting Positive Behaviour in Alberta Schools* and core classroom management principles[cite: 2, 3].
 
-    <div class="p-6 space-y-10">
+---
 
-      <!-- MODULE 1 -->
-      <section>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2.5 py-1 rounded-full">Module 1</span>
-          <h2 class="text-lg font-bold text-slate-800">Building Strong Relationships (40% Rule)</h2>
-        </div>
-        <p class="text-xs text-slate-600 mb-4">Connect before you correct. Students respond best when they know you care.</p>
+## 📋 Table of Contents
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
-          <div onclick="toggleCard('m1c1')" class="p-4 border rounded-xl cursor-pointer hover:border-indigo-500 transition bg-slate-50">
-            <div class="font-semibold text-sm text-indigo-900">🤝 Key Strategy: The 5-Second Wait</div>
-            <p id="m1c1" class="hidden mt-2 text-xs text-slate-600 border-t pt-2">When calling on a hesitant student, pause for 5 full seconds. Giving up too fast shows low confidence in them. Waiting shows you believe they can succeed!</p>
-          </div>
-          <div onclick="toggleCard('m1c2')" class="p-4 border rounded-xl cursor-pointer hover:border-indigo-500 transition bg-slate-50">
-            <div class="font-semibold text-sm text-indigo-900">🧘 Teacher Cool-Down</div>
-            <p id="m1c2" class="hidden mt-2 text-xs text-slate-600 border-t pt-2">When frustration builds, take a 30-second reset: assign a quick silent reading task or take 3 deep breaths before responding.</p>
-          </div>
-        </div>
-      </section>
+1. [Framework Overview](#framework-overview)
+2. [Module 1: Developing Positive Student Relations & Expectations](#module-1-developing-positive-student-relations--expectations)
+3. [Module 2: Monitoring Skills & Establishing Clear Parameters](#module-2-monitoring-skills--establishing-clear-parameters)
+4. [Module 3: Managing De-escalation & Power Struggles](#module-3-managing-de-escalation--power-struggles)
+5. [Module 4: Fair, Predictable Consequences & Restorative Practices](#module-4-fair-predictable-consequences--restorative-practices)
+6. [Interactive Teacher Reflection & Action Plan Template](#interactive-teacher-reflection--action-plan-template)
 
-      <hr class="border-slate-200">
+---
 
-      <!-- MODULE 2 -->
-      <section>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2.5 py-1 rounded-full">Module 2</span>
-          <h2 class="text-lg font-bold text-slate-800">Classroom Setup & Clear Rules</h2>
-        </div>
-        <p class="text-xs text-slate-600 mb-4">Prevention is better than correction. Set clear boundaries before problems start.</p>
+## Framework Overview
 
-        <div class="bg-slate-50 border p-4 rounded-xl mb-4">
-          <p class="text-xs font-bold text-slate-700 mb-2">Rule Check: Teach vs. Announce</p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-            <div class="p-2 bg-red-50 text-red-800 rounded border border-red-200">❌ <strong>Announcing:</strong> "Be good today!" (Too vague)</div>
-            <div class="p-2 bg-emerald-50 text-emerald-800 rounded border border-emerald-200">🟢 <strong>Teaching:</strong> "Watch how I raise my hand quietly, then let's practice together."</div>
-          </div>
-        </div>
-      </section>
-
-      <hr class="border-slate-200">
-
-      <!-- MODULE 3 -->
-      <section>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2.5 py-1 rounded-full">Module 3</span>
-          <h2 class="text-lg font-bold text-slate-800">Handling Small Disruptions</h2>
-        </div>
-        <p class="text-xs text-slate-500 mb-4">Read the situation and choose your response:</p>
-
-        <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4 text-xs text-amber-900">
-          <strong>Scenario:</strong> Alex is whispering to a classmate while you are explaining an activity. What is your best first move?
-        </div>
-
-        <div class="space-y-2">
-          <button onclick="checkAnswer(1)" class="w-full text-left p-3 text-xs rounded-xl border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/50 transition">
-            🔴 A. Call out across the room: "Alex, stop talking and pay attention!"
-          </button>
-          <button onclick="checkAnswer(2)" class="w-full text-left p-3 text-xs rounded-xl border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/50 transition">
-            🟢 B. Keep speaking to the class, walk over quietly, and stand next to Alex's desk (<span class="tooltip">Proximity<span class="tooltiptext">Moving physically closer to manage behavior without speaking.</span></span>).
-          </button>
-        </div>
-
-        <div id="feedback" class="hidden mt-4 p-4 rounded-xl text-xs"></div>
-      </section>
-
-      <hr class="border-slate-200">
-
-      <!-- MODULE 4 -->
-      <section>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2.5 py-1 rounded-full">Module 4</span>
-          <h2 class="text-lg font-bold text-slate-800">Fair & Effective Consequences</h2>
-        </div>
-        
-        <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-r-xl mb-4">
-          <p class="text-xs font-bold text-indigo-900">The Golden Rule of Discipline:</p>
-          <p class="text-xs text-indigo-800 mt-1">Praise in public 👏 | Correct in private 🤫</p>
-          <p class="text-xs text-indigo-700 mt-1">Protect a student's <span class="tooltip">dignity<span class="tooltiptext">Self-respect and pride; avoiding public embarrassment.</span></span>. If they lose face in front of peers, they will fight back to look tough.</p>
-        </div>
-      </section>
-
-      <hr class="border-slate-200">
-
-      <!-- MODULE 5 -->
-      <section>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2.5 py-1 rounded-full">Module 5</span>
-          <h2 class="text-lg font-bold text-slate-800">De-escalating Challenging Behavior</h2>
-        </div>
-        
-        <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4 text-xs text-amber-900">
-          <strong>Scenario:</strong> A student stands up and shouts: "You can't make me do this work!"
-        </div>
-
-        <div class="space-y-2">
-          <button onclick="checkDeescalate(1)" class="w-full text-left p-3 text-xs rounded-xl border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/50 transition">
-            🔴 A. Say: "Oh yes I can! I am the teacher in this classroom!"
-          </button>
-          <button onclick="checkDeescalate(2)" class="w-full text-left p-3 text-xs rounded-xl border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/50 transition">
-            🟢 B. Say quietly: "You're right, I can't force you. But doing it now keeps your break time later. I'll give you a minute to think."
-          </button>
-        </div>
-
-        <div id="feedback5" class="hidden mt-4 p-4 rounded-xl text-xs"></div>
-      </section>
-
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-slate-50 px-6 py-4 border-t border-slate-100 flex justify-between items-center text-xs text-slate-500">
-      <span>💡 Tip: Hover over underlined words for simple definitions</span>
-      <span>Modules 1 - 5 (Complete)</span>
-    </footer>
-
-  </div>
-
-  <script>
-    function toggleCard(id) {
-      const el = document.getElementById(id);
-      el.classList.toggle('hidden');
-    }
-
-    function checkAnswer(option) {
-      const feedback = document.getElementById('feedback');
-      feedback.classList.remove('hidden', 'bg-red-50', 'text-red-800', 'border-red-200', 'bg-emerald-50', 'text-emerald-800', 'border-emerald-200', 'border');
-      
-      if(option === 1) {
-        feedback.classList.add('bg-red-50', 'text-red-800', 'border-red-200', 'border');
-        feedback.innerHTML = "<strong>Not quite:</strong> Calling out a student across the room stops the lesson for everyone and can put the student on the defensive. Try using physical closeness first!";
-      } else {
-        feedback.classList.add('bg-emerald-50', 'text-emerald-800', 'border-emerald-200', 'border');
-        feedback.innerHTML = "<strong>Excellent choice!</strong> Moving closer (Proximity) stops the disruption quietly without breaking your teaching flow or publicly embarrassing the student.";
-      }
-    }
-
-    function checkDeescalate(option) {
-      const feedback = document.getElementById('feedback5');
-      feedback.classList.remove('hidden', 'bg-red-50', 'text-red-800', 'border-red-200', 'bg-emerald-50', 'text-emerald-800', 'border-emerald-200', 'border');
-      
-      if(option === 1) {
-        feedback.classList.add('bg-red-50', 'text-red-800', 'border-red-200', 'border');
-        feedback.innerHTML = "<strong>Avoid Power Struggles:</strong> Yelling back creates a tug-of-war in front of the whole class. You cannot force a student, but you CAN control the choices and consequences.";
-      } else {
-        feedback.classList.add('bg-emerald-50', 'text-emerald-800', 'border-emerald-200', 'border');
-        feedback.innerHTML = "<strong>Great De-escalation!</strong> You lowered the tension, admitted you can't force them, offered clear choices, and walked away to give them space to make a smart decision.";
-      }
-    }
-  </script>
-</body>
-</html>
+To maintain an orderly classroom, discipline must focus heavily on **prevention** before relying on reactive interventions[cite: 2]. This framework follows a 3-Tiered Continuum of Support:
