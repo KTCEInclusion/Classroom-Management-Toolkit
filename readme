@@ -1,6 +1,165 @@
-Classroom Management & Professional Development Workshop FrameworkA comprehensive, evidence-based training curriculum and case-study toolkit designed for K-12 educators and instructional coaches. Adapted from Alberta Education's Supporting Positive Behaviour in Alberta Schools and core classroom management principles[cite: 2, 3].Table of ContentsFramework OverviewModule 1: Developing Positive Student Relations & ExpectationsModule 2: Monitoring Skills & Establishing Clear ParametersModule 3: Managing De-escalation & Power StrugglesModule 4: Fair, Predictable Consequences & Restorative PracticesInteractive Teacher Reflection & Action Plan TemplateFramework OverviewTo maintain an orderly classroom, discipline must focus heavily on prevention before relying on reactive interventions. This framework follows a 3-Tiered Continuum of Support:                 / \
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classroom Management & Professional Development Framework</title>
+  <style>
+    :root {
+      --primary-color: #1e3a8a;
+      --secondary-color: #2563eb;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-color: #1e293b;
+      --border-color: #e2e8f0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.9;
+    }
+    nav {
+      background-color: var(--card-bg);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 30px;
+    }
+    nav h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: var(--primary-color);
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav li {
+      margin-bottom: 8px;
+    }
+    nav a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background: var(--card-bg);
+      padding: 30px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 8px;
+      margin-top: 0;
+    }
+    h3 {
+      color: var(--secondary-color);
+      margin-top: 20px;
+    }
+    blockquote {
+      background-color: #f1f5f9;
+      border-left: 4px solid var(--secondary-color);
+      margin: 15px 0;
+      padding: 15px;
+      font-style: italic;
+    }
+    pre {
+      background-color: #0f172a;
+      color: #38bdf8;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-family: monospace;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid var(--border-color);
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f1f5f9;
+      color: var(--primary-color);
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .form-group input, .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Classroom Management & Support Framework</h1>
+    <p>An evidence-based training curriculum adapted from Alberta Education and proactive management principles[cite: 2, 3].</p>
+  </header>
+
+  <nav>
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#overview">Framework Overview</a></li>
+      <li><a href="#module1">Module 1: Positive Student Relations & Expectations</a></li>
+      <li><a href="#module2">Module 2: Monitoring Skills & Clear Parameters</a></li>
+      <li><a href="#module3">Module 3: Managing De-escalation & Power Struggles</a></li>
+      <li><a href="#module4">Module 4: Fair Consequences & Restorative Practices</a></li>
+      <li><a href="#template">Interactive Action Plan Template</a></li>
+    </ul>
+  </nav>
+
+  <section id="overview">
+    <h2>Framework Overview</h2>
+    <p>To maintain an orderly classroom, discipline must focus heavily on <strong>prevention</strong> before relying on reactive interventions[cite: 2]. This framework follows a 3-Tiered Continuum of Support[cite: 3]:</p>
+    <pre>
+               / \
               /   \    Tier 3: Intensive Individualized Supports (1–7%)
-             /     \   (Behavior Support Plans, Individual De-escalation)
+             /     \   (Behavior Support Plans, Individual De-escalation)[cite: 3]
             /-------\
            /         \   Tier 2: Targeted Supports (5–15%)
           /           \  (Structured Redirection, Non-Verbal Interventions)[cite: 2, 3]
@@ -8,5 +167,139 @@ Classroom Management & Professional Development Workshop FrameworkA comprehensiv
         /               \  Tier 1: Universal Supports (80–85%)
        /                 \ (Positive Relationships, Parameters, Active Monitoring)[cite: 2, 3]
       ---------------------
-Module 1: Developing Positive Student Relations & Expectations1. Pedagogical RationalePositive teacher-student relationships serve as the primary preventive discipline tool. Students who feel valued demonstrate higher compliance and up to 32% fewer discipline disruptions over an academic year.  2. Core Instructional Strategies4-to-1 Positive Ratio: Deliver at least four positive interactions or compliments for every single corrective feedback moment.  Identify Strengths: Identify five genuine strengths or personal interests for every challenging student to build rapport[cite: 2, 3].Equitable Latency: Extend response wait times (latency) for struggling students to demonstrate belief in their capacity without prematurely removing accountability.  Private Frustration Management: Utilize non-verbal signals, proximity, or buddy-teacher systems to maintain personal calm when student behavior pushes boundaries.  3. Case Study ScenarioScenario: Maya, an 8th-grade student, frequently enters class late, slumps in her seat, and ignores initial instructional directives. When asked to open her workbook, she mutters under her breath, rolls her eyes, and puts her head down.  Module 2: Monitoring Skills & Establishing Clear Parameters1. Pedagogical RationaleDisruptions occur when parameters are vague or when students believe the teacher is unconcerned or unaware. Classroom parameters must be formally taught, modeled, and practiced. Proactive monitoring allows teachers to address minor off-task behaviors while preserving student dignity[cite: 2, 3].  2. Core Instructional StrategiesTeach, Model, Practice: Explicitly instruct behavioral parameters (routines, academic expectations, transitions) using direct modeling and re-teaching when compliance drops.  Proximity Geometry: Arrange classroom layout to eliminate physical barriers, enabling fluid movement to all room corners.  Signal Interference: Employ non-verbal cues (eye contact, intentional pauses, proximity) to halt disruptions without stopping instruction.  Public Rules, Private Corrections: Teach rules publicly to the class, but administer corrective feedback privately to prevent peer-driven defiance.  3. Case Study ScenarioScenario: During direct instruction, two students in the back corner begin whispering and sharing content on a smartphone. When eye contact is made, they pause briefly, but resume as soon as instruction turns back to the board.  
-Module 3: Managing De-escalation & Power Struggles1. Pedagogical RationalePower struggles occur when attention shifts from the initial rule violation to issues of control and saving face. Escalation often results from adult emotional responses or public call-outs. De-escalation requires disengaging personal triggers, offering acceptable choices, and providing a dignity-preserving exit route.  2. Core Instructional Strategies4-Step Power Struggle Protocol:Disengage Emotion: Lower vocal volume/pitch and depersonalize hostility.  De-escalate Environment: Remove peer audience and adjust body language.  Acknowledge Reality: Verbally validate the student's personal autonomy.  Offer Choices & Walk Away: Present options with predictable outcomes and step back to allow processing time.  Choice-Based Redirection: Frame directives as choice-oriented options rather than authoritative demands (e.g., "Would you like to complete the odd or even numbers first?").  3. De-Escalation Script MatrixStepAction / ScriptPedagogical Objective1. Disengage(Take deep breath, lower vocal pitch, step back)  Prevents emotional escalation and personal conflict.  2. De-escalate"Class, continue working. Marcus, let's talk quietly over here."  Eliminates the peer audience to preserve dignity.  3. Acknowledge Power"You're right, Marcus. I cannot force you to complete this assignment."  Neutralizes defensive power dynamics.  4. Provide Choice"You can complete it now or during quiet reflection. I'll give you a moment to decide."  Offers choices with clear outcomes and avoids trap-setting.  Module 4: Fair, Predictable Consequences & Restorative Practices1. Pedagogical RationaleConsequences must be timely, proportional, predictable, and designed to preserve student dignity. Harsh or delayed consequences foster resentment. Every disciplinary intervention must conclude with positive expectations and a structured restorative transition back into the learning community[cite: 2, 3].  2. Core Instructional StrategiesLaw of Least Resistance: Apply proportional consequences matched to infraction severity; avoid escalating minor infractions unnecessarily.  Structured Reflection: Use neutral reflection protocols focusing on: What happened? Who was impacted? What will be done differently next time?  Fact-Finding: Gather objective details prior to assigning consequences and encourage honesty.  Restorative Re-entry: Welcome returning students warmly, re-establish expectations, and communicate a clean slate[cite: 2, 3].Interactive Teacher Reflection & Action Plan TemplateTeacher Action Plan WorksheetDate: _______________Module: _______________Target Student / Scenario: _______________1. Analysis of Current DynamicsWhat triggers or environment variables contributed to the disruption?  Was the response delivered privately or publicly?  2. Tiered Strategy Selection[ ] Tier 1: Positive Ratio / Non-Verbal Cue / Proximity[cite: 2, 3][ ] Tier 2: Low-Tone Redirection / Choice Offering[cite: 2, 3][ ] Tier 3: De-escalation Protocol / Individual Plan[cite: 3]3. Execution ScriptInitial Statement (Low-tone / Neutral):"..."Choice Offering (If resistance occurs):"Option A: ... or Option B: ... I'll give you a minute to choose."  Restorative Re-entry Plan:"..."  
+    </pre>
+  </section>
+
+  <section id="module1">
+    <h2>Module 1: Developing Positive Student Relations & Expectations</h2>
+    <h3>1. Pedagogical Rationale</h3>
+    <p>Positive teacher-student relationships serve as the primary preventive discipline tool[cite: 2]. Students who feel valued demonstrate higher compliance and up to 32% fewer discipline disruptions over an academic year[cite: 2].</p>
+
+    <h3>2. Core Instructional Strategies</h3>
+    <ul>
+      <li><strong>4-to-1 Positive Ratio:</strong> Deliver at least four positive interactions or compliments for every single corrective feedback moment[cite: 3].</li>
+      <li><strong>Identify Strengths:</strong> Identify five genuine strengths or personal interests for every challenging student to build rapport[cite: 2, 3].</li>
+      <li><strong>Equitable Latency:</strong> Extend response wait times for struggling students to demonstrate belief in their capacity without prematurely removing accountability[cite: 2].</li>
+      <li><strong>Private Frustration Management:</strong> Utilize non-verbal signals, proximity, or buddy-teacher systems to maintain personal calm when student behavior pushes boundaries[cite: 2].</li>
+    </ul>
+
+    <h3>3. Case Study Scenario</h3>
+    <blockquote>
+      <strong>Scenario:</strong> Maya, an 8th-grade student, frequently enters class late, slumps in her seat, and ignores initial instructional directives. When asked to open her workbook, she mutters under her breath, rolls her eyes, and puts her head down[cite: 2].
+    </blockquote>
+  </section>
+
+  <section id="module2">
+    <h2>Module 2: Monitoring Skills & Establishing Clear Parameters</h2>
+    <h3>1. Pedagogical Rationale</h3>
+    <p>Disruptions occur when parameters are vague or when students believe the teacher is unconcerned or unaware[cite: 2]. Classroom parameters must be formally taught, modeled, and practiced[cite: 2]. Proactive monitoring allows teachers to address minor off-task behaviors while preserving student dignity[cite: 2, 3].</p>
+
+    <h3>2. Core Instructional Strategies</h3>
+    <ul>
+      <li><strong>Teach, Model, Practice:</strong> Explicitly instruct behavioral parameters (routines, academic expectations, transitions) using direct modeling and re-teaching when compliance drops[cite: 2].</li>
+      <li><strong>Proximity Geometry:</strong> Arrange classroom layout to eliminate physical barriers, enabling fluid movement to all room corners[cite: 2].</li>
+      <li><strong>Signal Interference:</strong> Employ non-verbal cues (eye contact, intentional pauses, proximity) to halt disruptions without stopping instruction[cite: 2].</li>
+      <li><strong>Public Rules, Private Corrections:</strong> Teach rules publicly to the class, but administer corrective feedback privately to prevent peer-driven defiance[cite: 2].</li>
+    </ul>
+
+    <h3>3. Case Study Scenario</h3>
+    <blockquote>
+      <strong>Scenario:</strong> During direct instruction, two students in the back corner begin whispering and sharing content on a smartphone. When eye contact is made, they pause briefly, but resume as soon as instruction turns back to the board[cite: 2].
+    </blockquote>
+  </section>
+<section id="module3">
+    <h2>Module 3: Managing De-escalation & Power Struggles</h2>
+    <h3>1. Pedagogical Rationale</h3>
+    <p>Power struggles occur when attention shifts from the initial rule violation to issues of control and saving face[cite: 2]. Escalation often results from adult emotional responses or public call-outs[cite: 2]. De-escalation requires disengaging personal triggers, offering acceptable choices, and providing a dignity-preserving exit route[cite: 2].</p>
+
+    <h3>2. Core Instructional Strategies</h3>
+    <ul>
+      <li><strong>4-Step Power Struggle Protocol:</strong>
+        <ol>
+          <li><em>Disengage Emotion:</em> Lower vocal volume/pitch and depersonalize hostility[cite: 2].</li>
+          <li><em>De-escalate Environment:</em> Remove peer audience and adjust body language[cite: 2].</li>
+          <li><em>Acknowledge Reality:</em> Verbally validate the student's personal autonomy[cite: 2].</li>
+          <li><em>Offer Choices & Walk Away:</em> Present options with predictable outcomes and step back to allow processing time[cite: 2].</li>
+        </ol>
+      </li>
+      <li><strong>Choice-Based Redirection:</strong> Frame directives as choice-oriented options rather than authoritative demands (e.g., <em>"Would you like to complete the odd or even numbers first?"</em>)[cite: 2].</li>
+    </ul>
+
+    <h3>3. De-Escalation Script Matrix</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Step</th>
+          <th>Action / Script</th>
+          <th>Pedagogical Objective</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1. Disengage</strong></td>
+          <td><em>(Take deep breath, lower vocal pitch, step back)[cite: 2]</em></td>
+          <td>Prevents emotional escalation and personal conflict[cite: 2].</td>
+        </tr>
+        <tr>
+          <td><strong>2. De-escalate</strong></td>
+          <td><em>"Class, continue working. Marcus, let's talk quietly over here."[cite: 2]</em></td>
+          <td>Eliminates the peer audience to preserve dignity[cite: 2].</td>
+        </tr>
+        <tr>
+          <td><strong>3. Acknowledge Power</strong></td>
+          <td><em>"You're right, Marcus. I cannot force you to complete this assignment."[cite: 2]</em></td>
+          <td>Neutralizes defensive power dynamics[cite: 2].</td>
+        </tr>
+        <tr>
+          <td><strong>4. Provide Choice</strong></td>
+          <td><em>"You can complete it now or during quiet reflection. I'll give you a moment to decide."[cite: 2]</em></td>
+          <td>Offers choices with clear outcomes and avoids trap-setting[cite: 2].</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="module4">
+    <h2>Module 4: Fair, Predictable Consequences & Restorative Practices</h2>
+    <h3>1. Pedagogical Rationale</h3>
+    <p>Consequences must be timely, proportional, predictable, and designed to preserve student dignity[cite: 2]. Harsh or delayed consequences foster resentment[cite: 2]. Every disciplinary intervention must conclude with positive expectations and a structured restorative transition back into the learning community[cite: 2, 3].</p>
+
+    <h3>2. Core Instructional Strategies</h3>
+    <ul>
+      <li><strong>Law of Least Resistance:</strong> Apply proportional consequences matched to infraction severity; avoid escalating minor infractions unnecessarily[cite: 2].</li>
+      <li><strong>Structured Reflection:</strong> Use neutral reflection protocols focusing on: <em>What happened? Who was impacted? What will be done differently next time?[cite: 2]</em></li>
+      <li><strong>Fact-Finding:</strong> Gather objective details prior to assigning consequences and encourage honesty[cite: 2].</li>
+      <li><strong>Restorative Re-entry:</strong> Welcome returning students warmly, re-establish expectations, and communicate a clean slate[cite: 2, 3].</li>
+    </ul>
+  </section>
+
+  <section id="template">
+    <h2>Interactive Teacher Reflection & Action Plan Template</h2>
+    <form onsubmit="event.preventDefault(); alert('Action Plan Saved!');">
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+      </div>
+      <div class="form-group">
+        <label for="module">Focus Module:</label>
+        <input type="text" id="module" placeholder="e.g., Module 3 - De-escalation">
+      </div>
+      <div class="form-group">
+        <label for="target">Target Student / Scenario:</label>
+        <input type="text" id="target" placeholder="Describe student or situation">
+      </div>
+      <div class="form-group">
+        <label for="analysis">1. Dynamic Analysis:</label>
+        <textarea id="analysis" rows="3" placeholder="What triggers or environment variables contributed to the disruption?[cite: 2]"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="script">2. Execution Script:</label>
+        <textarea id="script" rows="3" placeholder="Draft your initial low-tone neutral response and choice offering...[cite: 2]"></textarea>
+      </div>
+      <button type="submit" style="background-color: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">Save Plan</button>
+    </form>
+  </section>
+</div>
+
+</body>
+</html>
