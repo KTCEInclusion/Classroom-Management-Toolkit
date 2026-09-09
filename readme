@@ -19,17 +19,19 @@ A comprehensive, evidence-based training curriculum and case-study toolkit desig
 ## Framework Overview
 
 To maintain an orderly classroom, discipline must focus heavily on **prevention** before relying on reactive interventions[cite: 2]. This framework follows a 3-Tiered Continuum of Support:
-/   \    Tier 3: Intensive Individualized Supports (1–7%)
-         /     \   (Behavior Support Plans, Individual De-escalation)[cite: 3]
-        /-------\
-       /         \   Tier 2: Targeted Supports (5–15%)
-      /           \  (Structured Redirection, Non-Verbal Interventions)[cite: 2, 3]
-     /-------------\
-    /               \  Tier 1: Universal Supports (80–85%)
-   /                 \ (Positive Relationships, Parameters, Active Monitoring)[cite: 2, 3]
-  ---------------------
----
+```text
+               / \
+              /   \    Tier 3: Intensive Individualized Supports (1–7%)
+             /     \   (Behavior Support Plans, Individual De-escalation)
+            /-------\
+           /         \   Tier 2: Targeted Supports (5–15%)
+          /           \  (Structured Redirection, Non-Verbal Interventions)
+         /-------------\
+        /               \  Tier 1: Universal Supports (80–85%)
+       /                 \ (Positive Relationships, Parameters, Active Monitoring)
+      ---------------------
 
+---
 <a id="module-1"></a>
 ## Module 1: Developing Positive Student Relations & Expectations
 
@@ -61,7 +63,7 @@ Disruptions occur when parameters are vague or when students believe the teacher
 
 ### 3. Case Study Scenario
 > **Scenario:** *During direct instruction, two students in the back corner begin whispering and sharing content on a smartphone. When eye contact is made, they pause briefly, but resume as soon as instruction turns back to the board[cite: 2].*
-Markdown
+
 ---
 
 <a id="module-3"></a>
